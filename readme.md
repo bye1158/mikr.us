@@ -22,7 +22,7 @@ https://github.com/bin862324915/serv00-automation   原版来源
 - `SSH_INFO`：包含SSH连接信息的JSON字符串。以下是示例
 
   ```JSON
-  输入：]
+  输入：[
     {"hostname": "服务器号", "用户名": "用户名", "密码": "密码"}
   输入：]
   ```
