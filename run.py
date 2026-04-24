@@ -12,6 +12,7 @@ def ssh_multiple_connections(hosts_info, command):
         hostname = host_info['hostname']
         username = host_info['username']
         password = host_info['password']
+        port = host_info['port']
         try:
             ssh = paramiko.SSHClient()
             ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
