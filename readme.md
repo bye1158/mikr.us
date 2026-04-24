@@ -23,7 +23,8 @@ https://github.com/bin862324915/serv00-automation   原版来源
 
   ```JSON
   [
-    {"hostname": "服务器号", "用户名": "用户名", "密码": "密码"}
+    {"hostname": "服务器号", "username": "用户名", "password": "密码", "port": "端口},
+    {"hostname": "服务器号", "username": "用户名", "password": "密码", "port": "端口}
   ]
   ```
 - TELEGRAM_BOT_TOKEN：您的 Telegram Bot API Token。示例：`733255939:AAHsoQf-3lOoc1xC8le2d58qlfrCqEXzu74`
